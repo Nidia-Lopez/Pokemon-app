@@ -1,0 +1,110 @@
+.card {
+  margin: 2rem 2rem 2rem 0;
+  padding: 2.5rem;
+  width: 250px;
+  box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+  transition: transform .3s ease;
+  cursor: pointer;
+  background-color: rgb(11, 4, 18);
+
+}
+
+.text-p {
+  color: rgb(147, 154, 154);
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card_title {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.card_image img {
+  border-radius: 50%;
+}
+
+.app {
+  padding: 4rem;
+
+}
+
+.cards-containers-wrapper {
+  display: grid;
+  max-width: 1200px;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 0 auto;
+  padding-top: 7%;
+  padding-bottom: 5%;
+  grid-gap: 10px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.dropdown-menu.show {
+  display: inline;
+}
+
+.dropdown-menu[data-bs-popper] {
+  top: initial;
+  left: initial;
+}
+
+.container-search {
+  display: block;
+  margin-right: 35%;
+}
+
+
+
+.i-logo {
+  width: 180px;
+  float: left;
+
+}
+
+
+.seen-img {
+
+  border-radius: 100%;
+  width: 40px;
+  margin-right: 5rem;
+  padding: 0 0 1.5rem;
+
+}
+
+.container-search {
+  text-align: center;
+
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  background: linear-gradient(115deg, blue 57.7%, red 57.7%);
+  height: 11rem;
+  display: block !important;
+}
+
+.i-logo {
+  width: 18rem;
+}
+
+
+.btn {
+  width: 90px;
+  height: 36px;
+  border: 1px solid #131516;
+  background: #121313;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
