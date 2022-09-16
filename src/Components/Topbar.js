@@ -1,5 +1,4 @@
 import React from 'react';
-import { link } from 'react-router-dom';
 import Searchbar from './Searchbar';
 import pokemonlogo from "../img/pokemonlogo.png";
 import pokeball2 from "../img/pokeball2.png";

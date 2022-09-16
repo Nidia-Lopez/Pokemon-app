@@ -51,6 +51,7 @@
 .dropdown-menu[data-bs-popper] {
   top: initial;
   left: initial;
+  
 }
 
 .container-search {
@@ -87,8 +88,9 @@
 }
 
 .container-fluid {
-  background: linear-gradient(115deg, blue 57.7%, red 57.7%);
-  height: 11rem;
+  background: linear-gradient(115deg, rgb(10, 10, 38) 57.7%, rgb(20, 9, 228) 57.7%);
+ 
+ 
   display: block !important;
 }
 
